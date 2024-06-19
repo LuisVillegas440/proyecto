@@ -14,6 +14,9 @@
 function multiplosDeN() {
   let numero1 = parseInt(document.querySelector("#numero1").value);
   let numero2 = parseInt(document.querySelector("#numero2").value);
+  document.querySelector('#numero1').value = '';
+    document.querySelector('#numero2').value = '';
+    document.querySelector("#resultado").innerHTML = "";
   let contador = 0;
   let multiplos = [];
 

@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../presentarmensaje.css">
+    <link rel="stylesheet" href="../Styles/ejercicio1.css">
     <title>Presentar mensaje N veces</title>
 </head>
 <body>
     <h1>Presentar un mensaje N veces</h1>
     <form action="principal.html">
         <section class="contenedor">
-            <div>
+            <div class="caja">
                 <label for="mensaje">Ingresar caracter:<input type="text" id="mensaje" placeholder="Ingresar mensaje"></label>
             </div>
-            <div>
+            <div class="caja">
                 <label for="numero">Ingresar n veces</label><input type="number" id="numero"  placeholder="ingresar n veces">
             </div>
             <button type="button" class="boton" onclick="main()">Presentar</button>
-            <div>
+            <div class="caja">
                 <label id="resultado"></label>
             </div>
+            
         </section>
 
     </form>
 
     <script src="../js/ejercicio1.js"></script>
+    <div class="regresar">
+        <a href="menu.html">Regresar</a>
+        </div>
+            </nav>
 </body>
 </html> 
